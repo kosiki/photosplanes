@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+  height: 65px ;
+  display: flex;
+  align-items: center;
+  background-color: #ADDFFF;
+  text-align: center;
+  width:100%;
+
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li {
+  list-style: none;
+  padding-right: 10px;
+  text-align: center;
+  width: 150px;
+  font-size: 18px;
+}
+
+
+
+.header-logo {
+ padding-left: 15px;
+ padding-right:15px;
+ font-size: 25px;
+ font-weight: bold;
+}
+
+
+
+.banner {
+height: 500px;
+padding: 0px;
+width:100%;
+background-size: cover;
+}
+
+img {
+  height:auto;
+  max-width: 100%;
+}
+
+
+
+
+/*ここから次のメモまではネットからの引用*/
+.banner {
+  overflow: hidden;
+  position: relative;
+}
+
+.banner:before {
+  animation: banner 1s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes banner {
+  100% {
+    transform: translateX(100%);
+  }
+}
+/*ここまで*/
+
+
+
+.introducion {
+  padding: 25px;
+}
+
+.intro-title {
+  font-size:20px;
+  font: arial;
+}
+
+.intro-list {
+  padding-left: 15px;
+}
+
+.intro-list ul li {
+  margin:10px;
+}
+
+.skills {
+  padding-top:60px;
+  padding:25px;
+}
+
+
+h2 {
+  padding-left: 25px;
+}
+
+.question {
+  text-align: center;
+}
+
+.question p {
+  margin: 20px;
+  font-family: arial;
+}
+
+
+.footer {
+  background-color:#DCDCDC;
+  text-align:center;
+  height:70px;
+  line-height:70px;
+}
+
+
+.index /*footer index*/ {
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  font:arial;
+}
+
+a:hover {
+opacity:0.8;
+border-bottom:1px solid black;
+}
+
+/*ここから下はスマホ用設定*/
+@media (max-width:670px) {
+  .header-logo {
+    padding-left: 15px;
+    padding-right:15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
