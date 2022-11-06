@@ -199,12 +199,56 @@ border-bottom:1px solid black;
 
 
 /*ここから下はスマホ用設定*/
-@media (max-width:480px) {
+@media (max-width:580px) {
   .header-logo {
     padding-left: 15px;
-    padding-right:15px;
+    padding-right:5px;
     font-size: 15px;
     font-weight: bold;
   }
 
+  .banner {
+  height: 200px;
+  padding: 0px;
+  width:100%;
+  background-size: cover;
+  }
+
+  img {
+    height:auto;
+    max-width: 100%;
+  }
+
+
+/*検証の結果要らないパート
+  .images {
+    display:flex;
+    flex-direction: column;
+  }
+*/
+
+
+  .photo {
+    width:100%;
+    display: flex;
+  }
+
+  .photo p {
+    font-size: 15px;
+    padding-top:5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .images li {
+  /* width: 50%;
+    list-style: none;
+    /*これを消して文字を上に　align-items: center;*/
+  /*  display: flex;
+    flex-direction: column; */
+
+    margin-bottom: 10px;
+  }
 }
+
