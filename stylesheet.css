@@ -164,6 +164,11 @@ h2 {
   text-align: center;
 }
 
+.question iframe {
+  width:900px;
+  height:1000px;
+}
+
 .question p {
   margin: 20px;
   font-family: arial;
@@ -199,12 +204,36 @@ border-bottom:1px solid black;
 
 
 /*ここから下はスマホ用設定*/
-@media (max-width:580px) {
+@media (max-width:610px) {
   .header-logo {
-    padding-left: 15px;
-    padding-right:5px;
-    font-size: 15px;
+    padding:8px;
+    font-size: 20px;
     font-weight: bold;
+    width:100%;
+    border-bottom: 1px solid black;
+  }
+  .header {
+    height: 170px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ADDFFF;
+    text-align: center;
+    width:100%;
+
+  }
+
+  .header ul {
+    /*ここはもともとdisplay:flex;があったがul liにinline-blockを入れて対応した*/
+  }
+
+  .header ul li {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding:5px;
+    border-bottom: 1px solid gray;
   }
 
   .banner {
@@ -250,5 +279,13 @@ border-bottom:1px solid black;
 
     margin-bottom: 10px;
   }
+
+  .question iframe {
+  width:400px;
+  text-align: center;
+  }
+
+
+
 }
 
