@@ -203,24 +203,24 @@ border-bottom:1px solid black;
 }
 
 .CASpage {
-  padding: 20px;
+  padding:20px;
 }
 
 .cas-title {
   font-size:25px;
   font: arial;
-  margin-bottom: 15px;
+  margin-bottom:15px;
 }
 
 .cas-subtitle {
   font-size:20px;
   font: arial;
-  margin-bottom: 15px;
+  margin-bottom:15px;
 }
 
 .casimage {
   height:auto;
-  max-width: 40%;
+  max-width:40%;
 }
 
 
@@ -317,4 +317,4 @@ border-bottom:1px solid black;
 
 
 
-}
+
