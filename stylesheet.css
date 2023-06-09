@@ -219,10 +219,12 @@ border-bottom:1px solid black;
 }
 
 .casimage {
-    
+  height:auto;
+  max-width: 100%;
 }
 
-.cas-text {
+
+.castext {
     padding:10px;
 }
 
