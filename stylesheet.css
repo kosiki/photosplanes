@@ -218,7 +218,13 @@ border-bottom:1px solid black;
   margin-bottom: 15px;
 }
 
+.casimage {
+    
+}
 
+.cas-text {
+    padding:10px;
+}
 
 /*ここから下はスマホ用設定*/
 @media (max-width:770px) {
