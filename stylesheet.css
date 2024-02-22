@@ -109,6 +109,17 @@ img {
   border-bottom: 1px solid black;
 }
 
+.instagram {
+    margin-bottom:5px; 
+    Background-color:#F8C8DC;
+    padding:5px;
+}
+
+.instagram :hover {
+    margin-bottom:5px; 
+    Background-color:#FCE3EC;
+    padding:5px;
+}
 
 .photos {
   padding-top:60px;
