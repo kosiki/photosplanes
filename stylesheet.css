@@ -110,15 +110,17 @@ img {
 }
 
 .instagram {
-    margin-bottom:5px; 
-    Background-color:#F8C8DC;
-    padding:5px;
-}
-
-.instagram :hover {
-    margin-bottom:5px; 
-    Background-color:#FCE3EC;
-    padding:5px;
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .photos {
