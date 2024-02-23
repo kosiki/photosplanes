@@ -120,12 +120,8 @@ img {
   border-radius:5px;
 }
 
-.click a:hover {
+.intro-text a:hover {
   opacity:0.7;
-}
-
-.instagram a:hover {
-    opacity:0.7;
 }
 
 .photos {
