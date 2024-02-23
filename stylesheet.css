@@ -117,7 +117,7 @@ img {
   display: inline-block;
   font-size: 15px;
   cursor: pointer;
-border-radius:5px;
+  border-radius:5px;
 }
 
 .click :hover {
