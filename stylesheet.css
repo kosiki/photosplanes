@@ -120,6 +120,9 @@ img {
   cursor: pointer;
 }
 
+.intro-text a:hover {
+  opacity:0.6;
+}
 
 .photos {
   padding-top:60px;
@@ -206,10 +209,6 @@ a {
 .header ul li a:hover {
 opacity:0.8;
 border-bottom:1px solid black;
-}
-
-.intro-text a:hover {
-  opacity:0.6;
 }
 
 .CASpage {
