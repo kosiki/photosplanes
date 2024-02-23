@@ -110,18 +110,17 @@ img {
 }
 
 .instagram {
-  background-color: #F8C8DC:; /* pink */
+  background-color: #F8C8DC; /* pink */
   border: none;
-  padding: 15px 32px;
+  padding: 8px 25px;
   text-align: center;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 2px;
   cursor: pointer;
 }
 
 .intro-text a:hover {
-  opacity:0.6;
+  opacity:0.7;
 }
 
 .photos {
