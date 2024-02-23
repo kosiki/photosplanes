@@ -110,7 +110,7 @@ img {
 }
 
 .instagram {
-  background-color: #4CAF50; /* Green */
+  background-color: #F8C8DC:; /* pink */
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -118,8 +118,8 @@ img {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 10px;
 }
+
 
 .photos {
   padding-top:60px;
@@ -210,7 +210,6 @@ border-bottom:1px solid black;
 
 .intro-text a:hover {
   opacity:0.6;
-  border-bottom: 1px solid black;
 }
 
 .CASpage {
