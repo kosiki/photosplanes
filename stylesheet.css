@@ -128,6 +128,11 @@ img {
   opacity:0.7; 
 }
 
+.intro-text a:hover {
+  opacity:0.7;
+}
+
+
 .photos {
   padding-top:60px;
   padding:25px;
